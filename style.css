@@ -1,0 +1,77 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: hsl(30, 38%, 92%);
+
+}
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  width: 1200px;
+  height: 900px;
+  background-color: white;
+  border-radius: 15px;
+}
+.leftPanel img {
+  border-radius: 15px 0px 0px 15px;
+}
+.rightPanel {
+  margin: 70px;
+}
+h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 65px;
+}
+.firstLine {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  letter-spacing: 9px;
+  color: hsl(228, 12%, 48%);
+}
+.secondLine {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  color: hsl(228, 12%, 48%);
+  line-height: 40px;
+}
+.pricePanel {
+  display: flex;
+  align-items: center;
+}
+h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 65px;
+  color: hsl(158, 36%, 37%);
+  margin-right: 30px;
+}
+.pricePanel p{
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: line-through;
+}
+
+.addcartButton {
+  background-color: hsl(158, 36%, 37%) ;
+  padding: 28px 122px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+.addcartIcon {
+  width: 30px;
+  margin-right: 15px;
+}
