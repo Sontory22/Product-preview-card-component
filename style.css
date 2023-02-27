@@ -19,59 +19,63 @@ main {
 }
 .container {
   display: flex;
-  width: 1200px;
-  height: 900px;
+  width: 600px;
+  height: 450px;
   background-color: white;
   border-radius: 15px;
 }
 .leftPanel img {
+  height: 450px;
   border-radius: 15px 0px 0px 15px;
 }
 .rightPanel {
-  margin: 70px;
+  width: 300px;
+  margin: 30px;
 }
 h1 {
   font-family: 'Fraunces', serif;
-  font-size: 65px;
+  font-size: 33px;
+  line-height: 35px;
 }
 .firstLine {
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  letter-spacing: 9px;
+  font-size: 12px;
+  letter-spacing: 6px;
   color: hsl(228, 12%, 48%);
 }
 .secondLine {
   font-family: 'Montserrat', sans-serif;
-  font-size: 27px;
+  font-size: 14.5px;
   color: hsl(228, 12%, 48%);
-  line-height: 40px;
+  line-height: 23px;
 }
 .pricePanel {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 h2 {
   font-family: 'Fraunces', serif;
-  font-size: 65px;
+  font-size: 33px;
   color: hsl(158, 36%, 37%);
-  margin-right: 30px;
+  margin-right: 20px;
 }
 .pricePanel p{
-  font-size: 25px;
+  font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: line-through;
 }
 
 .addcartButton {
   background-color: hsl(158, 36%, 37%) ;
-  padding: 28px 122px;
+  padding: 14px 60px;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   color: white;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 700;
 }
 .addcartIcon {
-  width: 30px;
-  margin-right: 15px;
+  width: 15px;
+  margin-right: 8px;
 }
