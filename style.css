@@ -64,11 +64,12 @@ h2 {
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
 }
 
 .addcartButton {
   background-color: hsl(158, 36%, 37%) ;
-  padding: 14px 65px;
+  padding: 15px 59px;
   border: none;
   border-radius: 10px;
   color: white;
